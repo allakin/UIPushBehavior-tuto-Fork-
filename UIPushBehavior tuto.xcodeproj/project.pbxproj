@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4E9747D1BD41FFF00BE4C31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9747C1BD41FFF00BE4C31 /* AppDelegate.swift */; };
+		C4E9747F1BD4200000BE4C31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9747E1BD4200000BE4C31 /* ViewController.swift */; };
+		C4E974821BD4200000BE4C31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E974801BD4200000BE4C31 /* Main.storyboard */; };
+		C4E974841BD4200000BE4C31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E974831BD4200000BE4C31 /* Assets.xcassets */; };
+		C4E974871BD4200000BE4C31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E974851BD4200000BE4C31 /* LaunchScreen.storyboard */; };
+		C4E974921BD4200000BE4C31 /* UIPushBehavior_tutoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E974911BD4200000BE4C31 /* UIPushBehavior_tutoTests.swift */; };
+		C4E9749D1BD4200000BE4C31 /* UIPushBehavior_tutoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E9749C1BD4200000BE4C31 /* UIPushBehavior_tutoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4E9748E1BD4200000BE4C31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4E974711BD41FFF00BE4C31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4E974781BD41FFF00BE4C31;
+			remoteInfo = "UIPushBehavior tuto";
+		};
+		C4E974991BD4200000BE4C31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4E974711BD41FFF00BE4C31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4E974781BD41FFF00BE4C31;
+			remoteInfo = "UIPushBehavior tuto";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4E974791BD41FFF00BE4C31 /* UIPushBehavior tuto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIPushBehavior tuto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E9747C1BD41FFF00BE4C31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4E9747E1BD4200000BE4C31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4E974811BD4200000BE4C31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4E974831BD4200000BE4C31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4E974861BD4200000BE4C31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4E974881BD4200000BE4C31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E9748D1BD4200000BE4C31 /* UIPushBehavior tutoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIPushBehavior tutoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E974911BD4200000BE4C31 /* UIPushBehavior_tutoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPushBehavior_tutoTests.swift; sourceTree = "<group>"; };
+		C4E974931BD4200000BE4C31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E974981BD4200000BE4C31 /* UIPushBehavior tutoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIPushBehavior tutoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E9749C1BD4200000BE4C31 /* UIPushBehavior_tutoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPushBehavior_tutoUITests.swift; sourceTree = "<group>"; };
+		C4E9749E1BD4200000BE4C31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4E974761BD41FFF00BE4C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E9748A1BD4200000BE4C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E974951BD4200000BE4C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4E974701BD41FFF00BE4C31 = {
+			isa = PBXGroup;
+			children = (
+				C4E9747B1BD41FFF00BE4C31 /* UIPushBehavior tuto */,
+				C4E974901BD4200000BE4C31 /* UIPushBehavior tutoTests */,
+				C4E9749B1BD4200000BE4C31 /* UIPushBehavior tutoUITests */,
+				C4E9747A1BD41FFF00BE4C31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4E9747A1BD41FFF00BE4C31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4E974791BD41FFF00BE4C31 /* UIPushBehavior tuto.app */,
+				C4E9748D1BD4200000BE4C31 /* UIPushBehavior tutoTests.xctest */,
+				C4E974981BD4200000BE4C31 /* UIPushBehavior tutoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4E9747B1BD41FFF00BE4C31 /* UIPushBehavior tuto */ = {
+			isa = PBXGroup;
+			children = (
+				C4E9747C1BD41FFF00BE4C31 /* AppDelegate.swift */,
+				C4E9747E1BD4200000BE4C31 /* ViewController.swift */,
+				C4E974801BD4200000BE4C31 /* Main.storyboard */,
+				C4E974831BD4200000BE4C31 /* Assets.xcassets */,
+				C4E974851BD4200000BE4C31 /* LaunchScreen.storyboard */,
+				C4E974881BD4200000BE4C31 /* Info.plist */,
+			);
+			path = "UIPushBehavior tuto";
+			sourceTree = "<group>";
+		};
+		C4E974901BD4200000BE4C31 /* UIPushBehavior tutoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4E974911BD4200000BE4C31 /* UIPushBehavior_tutoTests.swift */,
+				C4E974931BD4200000BE4C31 /* Info.plist */,
+			);
+			path = "UIPushBehavior tutoTests";
+			sourceTree = "<group>";
+		};
+		C4E9749B1BD4200000BE4C31 /* UIPushBehavior tutoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4E9749C1BD4200000BE4C31 /* UIPushBehavior_tutoUITests.swift */,
+				C4E9749E1BD4200000BE4C31 /* Info.plist */,
+			);
+			path = "UIPushBehavior tutoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4E974781BD41FFF00BE4C31 /* UIPushBehavior tuto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E974A11BD4200000BE4C31 /* Build configuration list for PBXNativeTarget "UIPushBehavior tuto" */;
+			buildPhases = (
+				C4E974751BD41FFF00BE4C31 /* Sources */,
+				C4E974761BD41FFF00BE4C31 /* Frameworks */,
+				C4E974771BD41FFF00BE4C31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIPushBehavior tuto";
+			productName = "UIPushBehavior tuto";
+			productReference = C4E974791BD41FFF00BE4C31 /* UIPushBehavior tuto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4E9748C1BD4200000BE4C31 /* UIPushBehavior tutoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E974A41BD4200000BE4C31 /* Build configuration list for PBXNativeTarget "UIPushBehavior tutoTests" */;
+			buildPhases = (
+				C4E974891BD4200000BE4C31 /* Sources */,
+				C4E9748A1BD4200000BE4C31 /* Frameworks */,
+				C4E9748B1BD4200000BE4C31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4E9748F1BD4200000BE4C31 /* PBXTargetDependency */,
+			);
+			name = "UIPushBehavior tutoTests";
+			productName = "UIPushBehavior tutoTests";
+			productReference = C4E9748D1BD4200000BE4C31 /* UIPushBehavior tutoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4E974971BD4200000BE4C31 /* UIPushBehavior tutoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E974A71BD4200000BE4C31 /* Build configuration list for PBXNativeTarget "UIPushBehavior tutoUITests" */;
+			buildPhases = (
+				C4E974941BD4200000BE4C31 /* Sources */,
+				C4E974951BD4200000BE4C31 /* Frameworks */,
+				C4E974961BD4200000BE4C31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4E9749A1BD4200000BE4C31 /* PBXTargetDependency */,
+			);
+			name = "UIPushBehavior tutoUITests";
+			productName = "UIPushBehavior tutoUITests";
+			productReference = C4E974981BD4200000BE4C31 /* UIPushBehavior tutoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4E974711BD41FFF00BE4C31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Medigarage Studios LTD";
+				TargetAttributes = {
+					C4E974781BD41FFF00BE4C31 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = UW9MD7S532;
+						LastSwiftMigration = 0820;
+					};
+					C4E9748C1BD4200000BE4C31 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = UW9MD7S532;
+						LastSwiftMigration = 0820;
+						TestTargetID = C4E974781BD41FFF00BE4C31;
+					};
+					C4E974971BD4200000BE4C31 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = UW9MD7S532;
+						LastSwiftMigration = 0820;
+						TestTargetID = C4E974781BD41FFF00BE4C31;
+					};
+				};
+			};
+			buildConfigurationList = C4E974741BD41FFF00BE4C31 /* Build configuration list for PBXProject "UIPushBehavior tuto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4E974701BD41FFF00BE4C31;
+			productRefGroup = C4E9747A1BD41FFF00BE4C31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4E974781BD41FFF00BE4C31 /* UIPushBehavior tuto */,
+				C4E9748C1BD4200000BE4C31 /* UIPushBehavior tutoTests */,
+				C4E974971BD4200000BE4C31 /* UIPushBehavior tutoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4E974771BD41FFF00BE4C31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E974871BD4200000BE4C31 /* LaunchScreen.storyboard in Resources */,
+				C4E974841BD4200000BE4C31 /* Assets.xcassets in Resources */,
+				C4E974821BD4200000BE4C31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E9748B1BD4200000BE4C31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E974961BD4200000BE4C31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4E974751BD41FFF00BE4C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E9747F1BD4200000BE4C31 /* ViewController.swift in Sources */,
+				C4E9747D1BD41FFF00BE4C31 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E974891BD4200000BE4C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E974921BD4200000BE4C31 /* UIPushBehavior_tutoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E974941BD4200000BE4C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E9749D1BD4200000BE4C31 /* UIPushBehavior_tutoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4E9748F1BD4200000BE4C31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4E974781BD41FFF00BE4C31 /* UIPushBehavior tuto */;
+			targetProxy = C4E9748E1BD4200000BE4C31 /* PBXContainerItemProxy */;
+		};
+		C4E9749A1BD4200000BE4C31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4E974781BD41FFF00BE4C31 /* UIPushBehavior tuto */;
+			targetProxy = C4E974991BD4200000BE4C31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4E974801BD4200000BE4C31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E974811BD4200000BE4C31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4E974851BD4200000BE4C31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E974861BD4200000BE4C31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4E9749F1BD4200000BE4C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4E974A01BD4200000BE4C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4E974A21BD4200000BE4C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIPushBehavior tuto/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.medigarage.UIPushBehavior-tuto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C4E974A31BD4200000BE4C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIPushBehavior tuto/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.medigarage.UIPushBehavior-tuto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C4E974A51BD4200000BE4C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIPushBehavior tutoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.medigarage.UIPushBehavior-tutoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIPushBehavior tuto.app/UIPushBehavior tuto";
+			};
+			name = Debug;
+		};
+		C4E974A61BD4200000BE4C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIPushBehavior tutoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.medigarage.UIPushBehavior-tutoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIPushBehavior tuto.app/UIPushBehavior tuto";
+			};
+			name = Release;
+		};
+		C4E974A81BD4200000BE4C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIPushBehavior tutoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.medigarage.UIPushBehavior-tutoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "UIPushBehavior tuto";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C4E974A91BD4200000BE4C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIPushBehavior tutoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.medigarage.UIPushBehavior-tutoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "UIPushBehavior tuto";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4E974741BD41FFF00BE4C31 /* Build configuration list for PBXProject "UIPushBehavior tuto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E9749F1BD4200000BE4C31 /* Debug */,
+				C4E974A01BD4200000BE4C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E974A11BD4200000BE4C31 /* Build configuration list for PBXNativeTarget "UIPushBehavior tuto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E974A21BD4200000BE4C31 /* Debug */,
+				C4E974A31BD4200000BE4C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E974A41BD4200000BE4C31 /* Build configuration list for PBXNativeTarget "UIPushBehavior tutoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E974A51BD4200000BE4C31 /* Debug */,
+				C4E974A61BD4200000BE4C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E974A71BD4200000BE4C31 /* Build configuration list for PBXNativeTarget "UIPushBehavior tutoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E974A81BD4200000BE4C31 /* Debug */,
+				C4E974A91BD4200000BE4C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4E974711BD41FFF00BE4C31 /* Project object */;
+}
